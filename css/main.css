@@ -1,0 +1,48 @@
+.bg {
+    background-image: linear-gradient(
+        to right top,
+        #d16ba5,
+        #c777b9,
+        #ba83ca,
+        #aa8fd8,
+        #9a9ae1,
+        #8aa7ec,
+        #79b3f4,
+        #69bff8,
+        #52cffe,
+        #41dfff,
+        #46eefa,
+        #5ffbf1
+    );
+    height: auto;
+}
+
+.card-i {
+    height: 20vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.card-deck {
+    margin-top: 2.5%;
+}
+
+.carousel-i {
+    height: 25vh;
+    width: auto;
+    min-width: 0;
+    min-height: 0;
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
+}
